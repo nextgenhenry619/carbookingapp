@@ -50,8 +50,6 @@ export default function Home() {
 
   //when 1 property or more changes, do this
   useEffect(() => {
-    console.log(fuel,year,model,manufacturer,limit)
-    getCars ()
   },[fuel,year,limit,manufacturer,model])
  
   const isDataEmpty = 
